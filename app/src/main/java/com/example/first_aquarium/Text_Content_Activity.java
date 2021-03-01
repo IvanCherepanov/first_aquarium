@@ -1,6 +1,7 @@
 package com.example.first_aquarium;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -11,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Text_Content_Activity extends AppCompatActivity {
     private TextView text_content;
+    private Typeface face1;
     private ImageView iContent;
     private int category=0;
     private int position=0;
@@ -23,8 +25,7 @@ public class Text_Content_Activity extends AppCompatActivity {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.text_content);
-        text_content = findViewById(R.id.text_main_content);
-        iContent = findViewById(R.id.image_content);
+        init();
         receiveIntent();
     }
     private  void receiveIntent(){
@@ -51,5 +52,11 @@ public class Text_Content_Activity extends AppCompatActivity {
                 text_content.setText(array_equipment[position]);
                 break;
         }
+    }
+    private void init(){
+        text_content = findViewById(R.id.text_main_content);
+        iContent = findViewById(R.id.image_content);
+        face1 = Typeface.createFromAsset(this.getAssets(), "fonts/Lobster-Regular.ttf");
+        text_content.setTypeface(face1);
     }
 }
