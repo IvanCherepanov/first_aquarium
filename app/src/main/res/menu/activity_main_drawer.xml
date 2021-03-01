@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_introduction"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/introduction" />
+        <item
+            android:id="@+id/id_fish"
+            android:icon="@drawable/fish"
+            android:title="@string/fish" />
+        <item
+            android:id="@+id/id_Plants"
+            android:icon="@drawable/plant"
+            android:title="@string/plants" />
+        <item
+            android:id="@+id/id_equipment"
+            android:icon="@drawable/acv"
+            android:title="@string/equipment" />
+    </group>
+</menu>

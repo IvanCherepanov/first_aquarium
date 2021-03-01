@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fish_array">
+        <item>Гуппи</item>
+        <item>Меченосец</item>
+        <item>Барбус</item>
+        <item>Данио</item>
+    </string-array>
+
+    <string-array name="plants_array">
+        <item>Аир травянистый</item>
+        <item>Бликса японская</item>
+        <item>Буцефаландры</item>
+        <item>Валлиснерия</item>
+    </string-array>
+
+    <string-array name="equipment_array">
+        <item>Аквариум</item>
+        <item>Фильтр</item>
+        <item>Кормушка</item>
+        <item>Грунт</item>
+        <item>Вода</item>
+        <item>Градусник</item>
+    </string-array>
+
+    <string-array name="introduction_array">
+        <item>Стоит ли заводить</item>
+        <item>Подводные камни</item>
+        <item>---</item>
+        <item>---</item>
+
+    </string-array>
+
+
+</resources>
