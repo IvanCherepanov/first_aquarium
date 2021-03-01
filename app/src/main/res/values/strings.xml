@@ -63,4 +63,6 @@
     <string name="introduction_2">introduction2</string>
     <string name="introduction_3">introduction3</string>
     <string name="introduction_4">introduction4</string>
+
+    <string name="button1">Начать</string>
 </resources>
